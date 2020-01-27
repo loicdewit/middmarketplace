@@ -1,6 +1,7 @@
 import React from "react";
 import TypeWriter from "./TypeWriter";
 import {Link} from "react-router-dom";
+import "./Landing.css";
 
 class Landing extends React.Component {
   render() {
@@ -16,7 +17,7 @@ class Landing extends React.Component {
               <Link to="/register" className="btn btn-primary">
                 Sign Up
               </Link>
-              <Link to="/login" className="btn btn-light">
+              <Link to="/login" className="btn btn-primary">
                 Login
               </Link>
             </div>

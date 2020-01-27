@@ -1,7 +1,6 @@
 :root {
-  --primary-color: rgb(11, 11, 75);
   --light-color: rgba(247, 240, 240, 0.993);
-  --primary-font: rgb(24, 6, 122);
+  --primary-color: rgb(24, 6, 122);
 }
 
 * {
@@ -11,7 +10,7 @@
 }
 
 body {
-  font-family: 'Helvetica', sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-size: 1 rem;
   line-height: 1.6 rem;
   background-color: #fff;
@@ -30,7 +29,7 @@ ul {
 /* Navbar */
 
 .navbar {
-  background-color: var(--primary-font);
+  background-color: var(--primary-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -39,12 +38,13 @@ ul {
   z-index: 1;
   width: 100%;
   top: 0;
-  border-bottom: solid 1px var(--primary-font);
+  border-bottom: solid 1px var(--primary-color);
   opacity: 0.9;
+  height: 4rem;
 }
 
 h1 {
-  color: var(--primary-font);
+  color: var(--primary-color);
 }
 
 .navbar ul {
@@ -56,33 +56,16 @@ h1 {
   margin: 0 0.25rem;
 }
 
-/* Landing page */
-
-.x-large {
-  font-size: 50px;
+.navbar .logo {
+  font-size: 25px;
 }
-
-.landing {
-  text-align: center;
-  height: 50%;
-  width: 80% ;
-  margin: 15% 5%;
-  padding: 10em 10em 10em 10em;
-}
-
-.landing .lead {
-  padding: 1em;
-}
-
-
 /* Buttons */
 .btn:hover {
   opacity: 0.8;
 }
 
 .btn {
-  color: var(--primary-font);
-  border-radius: 5%;
+  color: var(--primary-color);
   display: inline-block;
   background: white;
   padding: 0.4rem 1.3rem;
@@ -94,3 +77,17 @@ h1 {
   outline: none;
 }
 
+/* Utilities */
+
+.container {
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+  margin-top: 6rem;
+  margin-bottom: 3 rem;
+}
+
+.my-1 {
+  margin-top: 10px;
+}

@@ -1,0 +1,22 @@
+@import url("../../App.css");
+
+/* Landing page */
+
+.x-large {
+  font-size: 50px;
+}
+
+.landing {
+  margin-top: 4rem;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.landing .dark-overlay {
+  margin-top: 20%;
+}
+
+.landing .lead {
+  padding: 1em;
+}
